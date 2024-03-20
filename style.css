@@ -1,0 +1,75 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.header_titulo{
+    background-color: #333;
+    text-align: center;
+    padding: 30px;
+}
+.titulo{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 8vw;
+    max-width: 80%;
+    margin: auto;
+    justify-content: center;
+    font-variant: small-caps;
+}
+.autor{
+    color: gray;
+}
+.destaque{
+    color: white;
+    font-weight: bold;
+}
+section{
+    padding: 10vh 0;
+    padding-left: 30px;
+}
+.fundo_branco{
+    background-color: white;
+}
+.fundo_imagem{
+    background: black url() right center no-repeat fixed;
+    background-size: cover;
+}
+.flor_imagem{
+    background-image: url(imagens/background001.jpg);
+    box-shadow: inset -3px 3px 9px black;
+}
+.livro_imagem{
+    background-image: url(imagens/background002.jpg);
+    box-shadow: inset -3px 3px 9px black;
+}
+p{
+    text-align: left;
+    display: flex;
+    margin: auto;
+    font-size: 4vw;
+    font-family: cursive, arial;
+    margin: 5vw;
+}
+.paragrafo_imagem{
+    display: inline-block;
+    color: white;
+    background-color: #333333a6;
+    text-shadow: 1px 1px 0px black;
+}
+.creditos{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px; /* altura do footer */
+    background-color: #333; /* cor de fundo do footer */
+    font-size: 16px;
+    color: #fff; /* cor do texto do footer */
+    text-align: center; /* centralizar texto horizontalmente */
+    line-height: 40px;
+}
